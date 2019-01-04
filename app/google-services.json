@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "199771550482",
+    "firebase_url": "https://movil-46915.firebaseio.com",
+    "project_id": "movil-46915",
+    "storage_bucket": "movil-46915.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199771550482:android:c76a2f250d873844",
+        "android_client_info": {
+          "package_name": "practica1.josesanchez.facci.serviciosautomovil"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199771550482-lmemn1j9lb6d557i235vmmh9goh7mgdd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB0UzYCRVYHpTSF_G67yLUANMfiJ1Yrorc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

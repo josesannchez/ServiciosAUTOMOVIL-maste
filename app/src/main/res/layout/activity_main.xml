@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/rt"
+    android:layout_centerInParent="true"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/imageButton"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="261dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="34dp"
+            android:layout_marginRight="150dp"
+            android:background="@drawable/as"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/button2Registrar"
+            android:layout_width="104dp"
+            android:layout_height="38dp"
+            android:layout_above="@+id/button4Siguiente"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentStart="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="141dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginBottom="63dp"
+            android:background="@color/colorPrimary"
+            android:gravity="center"
+            android:text="@string/r"
+            android:textColor="@android:color/white"
+            tools:layout_editor_absoluteX="68dp"
+            tools:layout_editor_absoluteY="209dp" />
+
+        <Button
+            android:id="@+id/button4Siguiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_weight="2"
+            android:background="@color/colorPrimaryDark"
+            android:text="inicio"
+            android:textColor="@android:color/white" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="368dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageButton"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="19dp"
+            android:paddingLeft="120dp"
+            android:text="REGISTRISE GRATIS"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+
+
+</LinearLayout>
